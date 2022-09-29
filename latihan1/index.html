@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
+    <!-- My style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>ZTech</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg position-fixed">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="assets/img/logo-ztech.png" alt="ZTech logo">
+                <span>ZTech</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img width="25" height="25" src="assets/img/icon/list.svg" alt="">
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonial" class="nav-link">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="d-flex">
+                <div class="left-panel">
+                    <h1 class="big-text">We Help Great Company Grow Up</h1>
+                    <p class="small-text">our service can encompass any combination of the following.</p>
+                    <form action="">
+                        <input type="text" class="input-email" placeholder="Email address">
+                        <button type="button" class="btn-get-started">Get Started</button>
+                    </form>
+                </div>
+                <div class="right-panel">
+                    <img src="assets/img/hero-image.png" alt="">
+                </div>
+            </div>
+            <div class="brands-group">
+                <h6>TRUSTED BY COMPANIES WORLDWIDE</h6>
+                <div class="d-flex">
+                    <img src="assets/img/microsoft-logo.png" alt="microsoft logo">
+                    <img src="assets/img/amazon-logo.png" alt="amazon logo">
+                    <img src="assets/img/google-logo.png" alt="google logo">
+                    <img src="assets/img/airbnb-logo.png" alt="airbnb logo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Service -->
+    <section id="service">
+        <div class="container">
+            <div class="title">
+                <p class="small-text">Services</p>
+                <h2 class="big-text">If You Can Think It, We Can Make It.</h2>
+            </div>
+
+            <div class="row services-group g-3">
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img class="m-auto mb-3" src="assets/img/app-development-icon.png" width="100" alt="">
+                        <div class="service-item">
+                            <h4>App Development</h4>
+                            <p>App development allows notifications and information to be sent to customers at a glance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img class="m-auto mb-3" src="assets/img/digital-marketing-icon.png" width="100" alt="">
+                        <div class="service-item">
+                            <h4>Digital Marketing</h4>
+                            <p>Digital marketing supports digital businesses to do massive marketing and expansion
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img class="m-auto mb-3" src="assets/img/web-development-icon.png" width="100" alt="">
+                        <div class="service-item">
+                            <h4>Web Development</h4>
+                            <p>Help grow your business by making work easier and more efficient
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us -->
+    <section id="about-us">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div class="left-panel">
+                    <img src="assets/img/about-img.png" alt="">
+                </div>
+                <div class="right-panel">
+                    <div class="title">
+                        <p class="small-text">About Us</p>
+                        <h2 class="big-text">What is ZTech?</h2>
+                    </div>
+
+                    <div class="tabs-group">
+
+                        <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+
+                            <li class="nav-item me-3" role="presentation">
+                                <button class="nav-link active" id="pills-whoweare-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-whoweare" type="button" role="tab"
+                                    aria-controls="pills-whoweare" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item me-3" role="presentation">
+                                <button class="nav-link" id="pills-vision-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-vision" type="button" role="tab" aria-controls="pills-vision"
+                                    aria-selected="false">Vision</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-mision-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-mision" type="button" role="tab" aria-controls="pills-mision"
+                                    aria-selected="false">Mission</button>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-whoweare" role="tabpanel" tabindex="0">
+                                ZTech
+                                is a new business that was only established in June 2015. ZTech is a tech business
+                                focused
+                                on the millennial age and its fascination with technology.</div>
+                            <div class="tab-pane fade" id="pills-vision" role="tabpanel" tabindex="0">Visi kami adalah
+                                menjadi platform edukasi teknologi terdepan yang mendorong akses literasi digital yang
+                                lebih
+                                luas untuk semua.</div>
+                            <div class="tab-pane fade" id="pills-mision" role="tabpanel" tabindex="0">Kami memiliki misi
+                                untuk mengakselerasi transisi Indonesia menuju dunia digital melalui pendidikan
+                                teknologi
+                                yang mentransformasi kehidupan.</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex data-group">
+                        <div class="item">
+                            <h3 class="count-text">100+</h3>
+                            <p class="name">EMPLOYEES</p>
+                        </div>
+                        <div class="item">
+                            <h3 class="count-text">400+</h3>
+                            <p class="name">PROJECTS</p>
+                        </div>
+                        <div class="item">
+                            <h3 class="count-text">250+</h3>
+                            <p class="name">CLIENTS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History -->
+    <section id="history">
+        <div class="container">
+            <div class="title">
+                <p class="small-text">History</p>
+                <h2 class="big-text">History and Growth</h2>
+            </div>
+
+            <div class="d-flex">
+                <div class="left-panel">
+                    <img src="assets/img/ceo-ztech-img.png" width="300" alt="">
+                    <div class="ceo-name">
+                        <h3>Achmad Zaky</h3>
+                        <p>CEO / Founder</p>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <p>A new business called ZTech wants to create a developer environment in Indonesia. ZTech, which
+                        was established on June 10th, 2015, offers a number of services that might assist young people
+                        in advancing the field of technology. Ahmad Zaky established ZTech in June 2015 as a platform to
+                        connect Indonesian developers with the requirements of a market that is becoming more and more
+                        competitive.</p>
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <h6>2015</h6>
+                            <p>Here is the beginning of the establishment of the ZTech.</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h6>2016-2020</h6>
+                            <p>Starting from nothing, we begin to construct and develop everything here.</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h6>2021</h6>
+                            <p>At this point, many people all around the world began to hear about ZTech.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievement -->
+    <section id="achievement">
+        <div class="container">
+            <div class="title">
+                <p class="small-text">Achievement</p>
+                <h2 class="big-text">What Accomplishments <span class="d-block">Have We Made?</span></h2>
+            </div>
+
+            <div class="d-flex mt-5">
+                <div class="left-panel d-flex flex-column">
+                    <div class="d-flex me-5">
+                        <img class="me-2" src="assets/img/g20-innovation-league-icon.png" width="50" height="50" alt="">
+                        <div class="mt-3">
+                            <h6 class="achievement-title">G20 Innovation League 2021</h6>
+                            <p class="description">ZTech was recognized as a startup with outstanding invention during a
+                                competition held in
+                                Sorrento, Italy on October 9 and 10, 2021.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-2 me-5">
+                        <img class="me-2" src="assets/img/g20-innovation-league-icon.png" width="50" height="50" alt="">
+                        <div class="mt-3">
+                            <h6 class="achievement-title">G20 Innovation League 2021</h6>
+                            <p class="description">ZTech was recognized as a startup with outstanding invention during a
+                                competition held in
+                                Sorrento, Italy on October 9 and 10, 2021.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-2 me-5">
+                        <img class="me-2" src="assets/img/g20-innovation-league-icon.png" width="50" height="50" alt="">
+                        <div class="mt-3">
+                            <h6 class="achievement-title">G20 Innovation League 2021</h6>
+                            <p class="description">ZTech was recognized as a startup with outstanding invention during a
+                                competition held in
+                                Sorrento, Italy on October 9 and 10, 2021.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <img src="assets/img/achievement-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio"></section>
+
+    <!-- Team -->
+    <section id="team"></section>
+
+    <!-- Gallery -->
+    <section id="gallery"></section>
+
+    <!-- Testimonial -->
+    <section id="testimonial"></section>
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper -->
+    <script src="assets/js/swiper.bundle.min.js"></script>
+    <!-- My script -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

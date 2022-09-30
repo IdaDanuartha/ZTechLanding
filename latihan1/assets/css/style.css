@@ -54,6 +54,21 @@ section .title .big-text {
     margin-top: -15px;
 }
 
+.btn {
+    border: 1px solid var(--primary-color);
+    outline: none;
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: 'Montserrat Medium';
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    background: none;
+}
+
 /* Navbar  */
 nav.navbar {
     width: 100%;
@@ -62,6 +77,14 @@ nav.navbar {
 nav.navbar .container {
     border-bottom: 1px solid rgba(255, 255, 255, .1);
     padding-bottom: 20px;
+}
+
+nav.navbar .navbar-brand {
+    font-family: 'Montserrat Semibold';
+}
+
+nav.navbar .nav-link {
+    margin-right: 24px;
 }
 
 nav.navbar .navbar-brand,
@@ -294,4 +317,97 @@ header .container .brands-group img {
 #achievement .left-panel .achievement-title {
     font-size: 1.3em;
     font-family: 'Montserrat Semibold';
+}
+
+#achievement .left-panel .description {
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+/* Portfolio */
+
+#portfolio .container .row .card {
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+#portfolio .container .row .card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+#portfolio .container .row .card .card-text {
+    font-size: 1.5em;
+    font-family: 'Montserrat Semibold';
+}
+
+/* Team */
+#team .container .teams-group .team-item:nth-child(2) {
+    margin-top: -25px;
+}
+
+#team .container .card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    padding: 15px;
+}
+
+#team .container .card .card-body .team-name {
+    font-family: 'Montserrat Semibold';
+    font-size: 1.2em;
+}
+
+#team .container .card .card-body .team-role {
+    font-size: 0.9em;
+    margin-top: -5px;
+    font-family: 'Montserrat Light';
+}
+
+/* Gallery */
+#gallery .galleries-group .gallery-item {
+    transition: all .3s ease;
+}
+
+#gallery .galleries-group .gallery-item:hover {
+    opacity: 0.8;
+}
+
+/* Testimonial */
+#testimonial .container .swiper {
+    padding: 30px;
+}
+
+#testimonial .container .swiper .swiper-pagination {
+    position: relative;
+    top: 30px;
+}
+
+#testimonial .container .swiper .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+
+#testimonial .container .swiper .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--primary-color);
+}
+
+#testimonial .container .swiper .swiper-slide .card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+#testimonial .container .swiper .swiper-slide .card .card-body > img {
+    width: 30px;
+    opacity: .8;
+}
+
+#testimonial .container .swiper .swiper-slide .card .card-body .card-text {
+    margin: 15px 0;
+    font-family: 'Montserrat Light';
+}
+
+#testimonial .container .swiper .swiper-slide .card .card-body .profile-group h6 {
+    font-family: 'Montserrat Bold';
+}
+
+#testimonial .container .swiper .swiper-slide .card .card-body .profile-group p {
+    margin-top: -10px;
+    font-size: 0.9em;
 }

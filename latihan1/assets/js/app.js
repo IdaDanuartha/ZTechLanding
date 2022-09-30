@@ -4,7 +4,7 @@ const swiper = new Swiper('.swiper', {
     // loop: true,
     slidesPerView: 3,
     spaceBetween: 60,
-    mousewheel: true,
+    // mousewheel: true,
 
     autoplay: {
         delay: 4000,
@@ -40,3 +40,24 @@ window.addEventListener('scroll', function() {
       navbar.classList.remove('scroll')
   }
 })
+
+// Modal image
+let modal = document.getElementById("modalGallery");
+
+let img = document.querySelectorAll(".gallery-img");
+let modalImg = document.getElementById("modal-img");
+
+img.forEach((item) => {
+    item.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+})
+
+// Get the <span> element that closes the modal
+let closeBtn = document.querySelector("#modalGallery .close-btn");
+
+// When the user clicks on <span> (x), close the modal
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}

@@ -1,0 +1,173 @@
+Primary Color : #09242A
+RGB Primary Color : rgb(9, 36, 42)
+
+Secondary Color : #03FFD9
+RGB Secondary Color : rgb(3, 255, 217)
+
+-----------------------------------------
+
+1. Navbar
+- Home
+- Services
+- About Us
+- Portfolio
+- Contact
+
+-----------------------------------------
+
+2. Header
+- We Help Great Company Grow Up
+- our service can encompass any combination of the following.
+
+- TRUSTED BY COMPANIES WORLDWIDE
+
+-----------------------------------------
+
+3. Services
+- If You Can Think It, We Can Make It.
+
+A. App Development
+- App development allows notifications and information to be sent to customers at a glance
+
+B. Digital Marketing
+- Digital marketing supports digital businesses to do massive marketing and expansion
+
+C. Web Development
+- Help grow your business by making work easier and more efficient
+
+-----------------------------------------
+
+4. About Us
+- What is ZTech
+
+A. Home
+- ZTech is a new business that was only established in June 2015. ZTech is a tech business focused on the millennial age and its fascination with technology.
+
+B. Vision
+- Our vision is to create a top technology education platform that inspires young people to pursue careers in technology.
+
+C. Mission
+- We have a mission to accelerate Indonesia's transition to the digital world via education and technology that transforms people's lives.
+
+-----------------------------------------
+
+5. History
+- History and Growth
+- Achmad Zaky (CEO / Founder)
+- A new business called ZTech wants to create a developer environment in Indonesia. ZTech, which was established on June 10th, 2015, offers a number of services that might assist young people in advancing the field of technology. Ahmad Zaky established ZTech in June 2015 as a platform to connect Indonesian developers with the requirements of a market that is becoming more and more competitive.
+
+A. 2015
+- Here is the beginning of the establishment of the ZTech.
+
+B. 2016 - 2020
+- Starting from nothing, we begin to construct and develop everything here.
+
+C. 2021
+- At this point, many people all around the world began to hear about ZTech.
+
+-----------------------------------------
+
+6. Achievement
+- What Accomplishments
+Have We Made?
+
+A. G20 Innovation League 2021
+- ZTech was recognized as a startup with outstanding invention during a competition held in Sorrento, Italy on October 9 and 10, 2021.
+
+B. The best Startup 2022
+- ZTech becomes the best startup company in the best startup competition in 2022
+
+C. Innovation Award 2022
+- ZTech is the top innovator with a focus on problem solving. Through the use of EdTech, creating Learning Experiences in the Metaverse.
+
+-----------------------------------------
+
+7. Portfolio
+- One Tool. Multiple Benefits.
+Tons Of Features
+
+A. Admin Dashboard Light Mode
+B. E-Commerce Mobile App
+C. Online Course Landing Page
+D. Co-Working Space Landing Page
+E. Health Tracker Mobile App
+F. Travel Mobile App
+-----------------------------------------
+
+8. Team
+- Our Executive Teams
+- They are out executive teams who have
+a big role for the company
+
+A. Anisa Paula (UI/UX Designer)
+B. Simon Eve (Frontend Developer)
+C. Robert Wang (Backend Developer)
+D. Jhon Saw (Product Manager)
+E. Angellica (Businness Analyst)
+F. Zhang Chi (QA Engineer)
+
+-----------------------------------------
+
+9. Gallery
+- Documentation of Our Activities
+
+
+-----------------------------------------
+
+10. Testimonial
+- What They Think Of Us
+- We are happy when out customers are too
+
+A. Jeanne Landing (UI Designer)
+- “ZTech has been an amazing asset to our company. The team went beyond our expectations and never failed to come up with new ideas”
+
+B. Baron Lee (Student)
+- “ZTech was a big help for me, they understood my struggles right away and offered solutions to problems i initially didn't even think of”
+
+C. Kyline Jane (Student)
+- “We initially approached ZTech for help with designing our website. But they looked further than that and also saw opportunities to help us.”
+
+D. Jhon Albert (Businessman)
+- We were a bit worried after some unsuccessful partnership with other marketing companies, but ZTech delivered outstanding work.
+
+E. Feliks Park (Frontend Developer)
+- ZTech really brought a lot of strategy and experience to the company when we started working with them
+
+-----------------------------------------
+
+11. Contact
+- Let's Get Started.
+- Customer satisfaction is our top priority! our support service is available 24/7 to assist you with any questions you may have about our platform
+
+- ztechofficial@gmail.com
+- (+62) 8123456789
+- Jl. Gatot Subroto Barat No.283, Pemecutan Kaja, Kec. Denpasar Utara, Kota Denpasar, Bali
+
+- Help us to get to know you
+
+-----------------------------------------
+
+12. Footer
+- ZTech is a new business that was only established in June
+2015. ZTech is a tech business focused on the millennial
+age and its fascination with technology.
+
+A. Services
+- App Development
+- Digital marketing
+- Web development
+- Web Designe
+
+B. Company
+- About
+- History
+- Achievement
+- Partners
+
+C. Legal
+- Claim
+- Privacy
+- Terms
+
+- Copyright © 2022 ZTech.
+- All Right Reserved.

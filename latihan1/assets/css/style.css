@@ -378,6 +378,10 @@ header .container .brands-group img {
     margin-top: -25px;
 }
 
+#team .container .teams-group img {
+    border-radius: 50%;
+}
+
 #team .container .card {
     box-shadow: 0 10px 20px rgba(0,0,0,0.06);
     padding: 15px;
@@ -497,6 +501,10 @@ header .container .brands-group img {
     margin: 15px 0;
     font-size: 0.83em;
     font-family: 'Montserrat Light';
+}
+
+#testimonial .container .swiper .swiper-slide .card .card-body .profile-group img {
+    border-radius: 50%;
 }
 
 #testimonial .container .swiper .swiper-slide .card .card-body .profile-group h6 {

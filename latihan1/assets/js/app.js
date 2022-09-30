@@ -4,9 +4,10 @@ const swiper = new Swiper('.swiper', {
     // loop: true,
     slidesPerView: 3,
     spaceBetween: 60,
+    mousewheel: true,
 
     autoplay: {
-        delay: 3000,
+        delay: 4000,
         disableOnInteraction: true,
     },
     // If we need pagination
@@ -14,10 +15,28 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-pagination',
     },
 
-      // Navigation arrows
-    // navigation: {
-    //     nextEl: '.swiper-button-next',
-    //     prevEl: '.swiper-button-prev',
-    // },
+    breakpoints: {
+      0: {
+          slidesPerView: 1,
+      },
+      768: {
+          slidesPerView: 2,
+      },
+      1024: {
+          slidesPerView: 3,
+      },
+  },
 
-  });
+});
+
+
+// Navbar on scroll
+const navbar = document.querySelector('.navbar')
+
+window.addEventListener('scroll', function() {
+  if(window.scrollY > 30) {
+      navbar.classList.add('scroll')
+  } else {
+      navbar.classList.remove('scroll')
+  }
+})

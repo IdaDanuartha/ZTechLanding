@@ -148,6 +148,7 @@ header {
     background: var(--primary-color);
     padding-top: 120px;
     padding-bottom: 30px;
+    width: 100vw;
 }
 
 header .container .left-panel {
@@ -415,6 +416,7 @@ header .container .brands-group img {
 #gallery .galleries-group .gallery-item img {
     width: 400px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .modal {
@@ -626,4 +628,12 @@ footer .socials-group img:hover {
 
 footer .copyright-group {
     font-size: 0.9em;
+}
+
+
+/* Responsive */
+@media (max-width: 1200px) {
+    #gallery .galleries-group .gallery-item img {
+        width: 95%;
+    }
 }

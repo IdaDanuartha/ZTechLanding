@@ -146,7 +146,7 @@ section .title .big-text {
 header {
     background-color: var(--primary-color);
     padding-top: 120px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     width: 100vw;
 }
 
@@ -167,7 +167,7 @@ header .left-panel .small-text {
 
 header form {
     background-color: #fff;
-    padding: 15px 15px 15px 30px;
+    padding: 10px 10px 10px 30px;
     width: 480px;
     display: flex;
     justify-content: space-between;
@@ -200,6 +200,10 @@ header form .btn-get-started:focus {
 header .brands-group {
     margin-top: 70px;
     color: rgba(255, 255, 255, 0.7);
+}
+
+header .brands-group .img-item:first-child {
+    margin-top: -20px;
 }
 
 /* Service */
@@ -353,10 +357,15 @@ header .brands-group {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
+#portfolio .card .card-body img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 #portfolio .card .card-text {
     font-size: 1.5em;
     font-family: 'Semibold';
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 /* Team */
@@ -440,9 +449,47 @@ header .brands-group {
 }
 
 /* Contact */
+#contact .container {
+    background-color: var(--primary-color);
+    padding: 50px 60px;
+    border-radius: 5px;
+    color: #fff;
+}
 
+#contact .left-panel .description {
+    color: rgba(255,255,255, .7);
+    font-family: 'Light';
+}
+
+#contact .right-panel {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+#contact .right-panel h2 {
+    color: var(--primary-color);
+    font-family: 'Semibold';
+    margin-bottom: 30px;
+}
+
+#contact .right-panel .btn-send {
+    width: 100%;
+}
 
 /* Footer */
 footer {
     margin-top: 120px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 50px;
 }
+
+footer .description {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* footer .nav-group {
+    margin-right: 30px;
+} */
